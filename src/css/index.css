@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+.container {
+  width: min(100% - 80px, 900px);
+  margin-inline: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.spacebetween {
+  justify-content: space-between;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+body {
+  font-family: 'Nunito', sans-serif, Arial, sans-serif;
+  background-color: rgb(24 23 32);
+}
+
+.hidden {
+  display: none;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.link, h1, h2, p, .date {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+  search
+*/
+
+.search {
+  height: 100svh;
+}
+
+.logo {
+  color: #fff;
+  font-size: 100px;
+}
+
+form {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 50px;
+}
+
+.search input {
+  background-color: transparent;
+  color: #fff;
+}
+
+.search button {
+  background-color: transparent;
+}
+
+.search-button {
+  color: #fff;
+}
+
+.search p {
+  height: 30px;
+  font-size: 18px;
+}
+
+.welcome {
+  color: #fff;
+  margin-top: 10px;
+}
+
+.error {
+  color: rgb(216, 4, 4);
+}
+
+/*
+  user
+*/
+
+
+.home {
+  cursor: pointer;
+  position: relative;
+  top: 40px;
+  font-size: 20px;
+  padding: 8px 20px;
+  background-color: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 50px;
+  transition: all 0.25s ease-in-out;
+}
+
+.home:hover {
+  background-color: rgb(255 255 255 / 20%);
+}
+
+.user-info img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 10px;
+}
+
+.stats {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.data {
+  color: #20db8d;
+  font-size: 19px;
+} 
+
+.github-link {
+  margin-top: 15px;
+  padding: 8px 30px;
+  background-color: #7a01ff;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  transition: all 0.25s ease-in-out;
+}
+
+.github-link:hover {
+  background-color: #fff;
+  color: #7a01ff;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.repo {
+  margin-top: 15px;
+  padding: 20px;
+  background-color: rgb(255 255 255 / 5%);
+  border-radius: 6px;
+}
+
+.repo-link {
+  color: #20db8d;
+}
+
