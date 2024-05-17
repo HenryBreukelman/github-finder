@@ -26,7 +26,7 @@ const User = () => {
     };
 
     fetchUser();
-  }, [username]);
+  }, [username, token]);
 
   const formatDate = (isoString) => {
     const date = new Date(isoString);
